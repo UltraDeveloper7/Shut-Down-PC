@@ -1,5 +1,18 @@
 # Windows Shutdown App with CustomTkinter and Voice Commands
 
+## Table of Contents
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Requirements](#requirements)
+4. [Installation](#installation)
+    - [Download through Git](#download-through-git)
+    - [Download through ZIP file](#download-through-zip-file)
+5. [Usage](#usage)
+6. [Troubleshooting](#troubleshooting)
+7. [Contributions](#contributions)
+8. [License](#license)
+9. [Acknowledgments](#acknowledgments)
+
 ## Overview
 This graphical application is designed to provide a user-friendly interface for shutting down a Windows system. It utilizes CustomTkinter for a customized and aesthetically pleasing GUI. Additionally, the app is equipped with voice command functionality, allowing users to trigger the shutdown process through spoken commands.
 
@@ -52,6 +65,6 @@ Contributions are welcome! Feel free to fork this repository and submit a pull r
 This project is licensed under the [MIT License](LICENSE). You can find the full text of the license [here](https://opensource.org/licenses/MIT).
 
 ## Acknowledgments
-- CustomTkinter: [Link to CustomTkinter repository]
-- SpeechRecognition: [Link to SpeechRecognition repository]
-- pyttsx3: [Link to pyttsx3 repository]
+- CustomTkinter: [https://github.com/TomSchimansky/CustomTkinter]
+- SpeechRecognition: [https://pypi.org/project/SpeechRecognition/]
+- pyttsx3: [https://pypi.org/project/pyttsx3/]
