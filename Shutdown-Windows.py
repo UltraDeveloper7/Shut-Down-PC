@@ -171,11 +171,13 @@ class GUI:
         self.combobox.place(relx=0.55, rely=0.64, anchor=tk.W)
         
         # Adding voice command button to GUI
+        self.home_image = ctk.CTkImage(Image.open(os.path.join(self.image_path, "mic.png")),size=(20, 20))
+        self.voice_command_label = ctk.CTkLabel(self.root, text="Voice Commands")
+        self.voice_command_label.place(relx=0.30, rely=0.80, anchor=tk.W)
         self.voice_command_btn = ctk.CTkButton(self.root,
-                                               text="Voice Commands",
-                                               font=("Arial", 12),
+                                               text="", image=self.home_image,
                                                command=self.voice_commands)
-        self.voice_command_btn.place(relx=0.48, rely=0.80, anchor=tk.CENTER)
+        self.voice_command_btn.place(relx=0.55, rely=0.80, anchor=tk.CENTER)
 
         # Adding appearance option menu to GUI
         self.label_mode = ctk.CTkLabel(master=self.root,
